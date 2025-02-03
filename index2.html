@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mining Company - Coming Soon</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 800px;
+      padding: 20px;
+      position: relative;
+      z-index: 2;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      animation: fadeIn 3s ease-in-out;
+    }
+    a {
+      color: #ff9900;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #e68a00;
+    }
+    .mining-truck {
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 400px;
+      height: auto;
+      z-index: 1;
+      animation: driveIn 5s ease-in-out forwards;
+    }
+    @keyframes driveIn {
+      0% {
+        transform: translateX(-200%);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon</h1>
+    <p>We're digging deep to bring you the best in mining solutions. Stay tuned for our grand launch!</p>
+    <p>Connect with me on <a href="https://www.linkedin.com/company/vasundhararesources/about/" target="_blank">LinkedIn</a>.</p>
+  </div>
+
+</body>
+</html>
